@@ -60,6 +60,14 @@
             this.pbxShield = new System.Windows.Forms.PictureBox();
             this.pbxQuiver = new System.Windows.Forms.PictureBox();
             this.pbxAxe = new System.Windows.Forms.PictureBox();
+            this.pbxInventory1 = new System.Windows.Forms.PictureBox();
+            this.pbxInventory2 = new System.Windows.Forms.PictureBox();
+            this.pbxInventory3 = new System.Windows.Forms.PictureBox();
+            this.pbxInventory4 = new System.Windows.Forms.PictureBox();
+            this.pbxInventory5 = new System.Windows.Forms.PictureBox();
+            this.gbxInventory = new System.Windows.Forms.GroupBox();
+            this.pbxInventoy6 = new System.Windows.Forms.PictureBox();
+            this.pbxInventoy7 = new System.Windows.Forms.PictureBox();
             this.gbMove.SuspendLayout();
             this.gbAttack.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -75,6 +83,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxShield)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxQuiver)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxAxe)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventory1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventory2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventory3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventory4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventory5)).BeginInit();
+            this.gbxInventory.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventoy6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventoy7)).BeginInit();
             this.SuspendLayout();
             // 
             // gbMove
@@ -291,6 +307,7 @@
             this.pbxPlayer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxPlayer.TabIndex = 3;
             this.pbxPlayer.TabStop = false;
+            this.pbxPlayer.Visible = false;
             // 
             // pbxBat
             // 
@@ -302,6 +319,7 @@
             this.pbxBat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxBat.TabIndex = 4;
             this.pbxBat.TabStop = false;
+            this.pbxBat.Visible = false;
             // 
             // pbxGhost
             // 
@@ -313,6 +331,7 @@
             this.pbxGhost.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxGhost.TabIndex = 5;
             this.pbxGhost.TabStop = false;
+            this.pbxGhost.Visible = false;
             // 
             // pbxGhoul
             // 
@@ -324,6 +343,7 @@
             this.pbxGhoul.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxGhoul.TabIndex = 6;
             this.pbxGhoul.TabStop = false;
+            this.pbxGhoul.Visible = false;
             // 
             // pbxPotionRed
             // 
@@ -335,6 +355,7 @@
             this.pbxPotionRed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxPotionRed.TabIndex = 7;
             this.pbxPotionRed.TabStop = false;
+            this.pbxPotionRed.Visible = false;
             // 
             // pbxPotionBlue
             // 
@@ -346,6 +367,7 @@
             this.pbxPotionBlue.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxPotionBlue.TabIndex = 8;
             this.pbxPotionBlue.TabStop = false;
+            this.pbxPotionBlue.Visible = false;
             // 
             // pbxSword
             // 
@@ -357,6 +379,7 @@
             this.pbxSword.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxSword.TabIndex = 9;
             this.pbxSword.TabStop = false;
+            this.pbxSword.Visible = false;
             // 
             // pbxBow
             // 
@@ -368,6 +391,7 @@
             this.pbxBow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxBow.TabIndex = 10;
             this.pbxBow.TabStop = false;
+            this.pbxBow.Visible = false;
             // 
             // pbxMace
             // 
@@ -379,6 +403,7 @@
             this.pbxMace.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxMace.TabIndex = 11;
             this.pbxMace.TabStop = false;
+            this.pbxMace.Visible = false;
             // 
             // pbxShield
             // 
@@ -390,6 +415,7 @@
             this.pbxShield.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxShield.TabIndex = 12;
             this.pbxShield.TabStop = false;
+            this.pbxShield.Visible = false;
             // 
             // pbxQuiver
             // 
@@ -401,6 +427,7 @@
             this.pbxQuiver.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxQuiver.TabIndex = 13;
             this.pbxQuiver.TabStop = false;
+            this.pbxQuiver.Visible = false;
             // 
             // pbxAxe
             // 
@@ -412,6 +439,94 @@
             this.pbxAxe.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbxAxe.TabIndex = 14;
             this.pbxAxe.TabStop = false;
+            this.pbxAxe.Visible = false;
+            // 
+            // pbxInventory1
+            // 
+            this.pbxInventory1.BackColor = System.Drawing.Color.Transparent;
+            this.pbxInventory1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbxInventory1.Location = new System.Drawing.Point(17, 32);
+            this.pbxInventory1.Name = "pbxInventory1";
+            this.pbxInventory1.Size = new System.Drawing.Size(50, 50);
+            this.pbxInventory1.TabIndex = 15;
+            this.pbxInventory1.TabStop = false;
+            // 
+            // pbxInventory2
+            // 
+            this.pbxInventory2.BackColor = System.Drawing.Color.Transparent;
+            this.pbxInventory2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbxInventory2.Location = new System.Drawing.Point(74, 32);
+            this.pbxInventory2.Name = "pbxInventory2";
+            this.pbxInventory2.Size = new System.Drawing.Size(50, 50);
+            this.pbxInventory2.TabIndex = 16;
+            this.pbxInventory2.TabStop = false;
+            // 
+            // pbxInventory3
+            // 
+            this.pbxInventory3.BackColor = System.Drawing.Color.Transparent;
+            this.pbxInventory3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbxInventory3.Location = new System.Drawing.Point(131, 32);
+            this.pbxInventory3.Name = "pbxInventory3";
+            this.pbxInventory3.Size = new System.Drawing.Size(50, 50);
+            this.pbxInventory3.TabIndex = 17;
+            this.pbxInventory3.TabStop = false;
+            // 
+            // pbxInventory4
+            // 
+            this.pbxInventory4.BackColor = System.Drawing.Color.Transparent;
+            this.pbxInventory4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbxInventory4.Location = new System.Drawing.Point(188, 32);
+            this.pbxInventory4.Name = "pbxInventory4";
+            this.pbxInventory4.Size = new System.Drawing.Size(50, 50);
+            this.pbxInventory4.TabIndex = 18;
+            this.pbxInventory4.TabStop = false;
+            // 
+            // pbxInventory5
+            // 
+            this.pbxInventory5.BackColor = System.Drawing.Color.Transparent;
+            this.pbxInventory5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbxInventory5.Location = new System.Drawing.Point(245, 32);
+            this.pbxInventory5.Name = "pbxInventory5";
+            this.pbxInventory5.Size = new System.Drawing.Size(50, 50);
+            this.pbxInventory5.TabIndex = 19;
+            this.pbxInventory5.TabStop = false;
+            // 
+            // gbxInventory
+            // 
+            this.gbxInventory.BackColor = System.Drawing.Color.Transparent;
+            this.gbxInventory.Controls.Add(this.pbxInventoy7);
+            this.gbxInventory.Controls.Add(this.pbxInventoy6);
+            this.gbxInventory.Controls.Add(this.pbxInventory2);
+            this.gbxInventory.Controls.Add(this.pbxInventory5);
+            this.gbxInventory.Controls.Add(this.pbxInventory1);
+            this.gbxInventory.Controls.Add(this.pbxInventory4);
+            this.gbxInventory.Controls.Add(this.pbxInventory3);
+            this.gbxInventory.Location = new System.Drawing.Point(113, 466);
+            this.gbxInventory.Name = "gbxInventory";
+            this.gbxInventory.Size = new System.Drawing.Size(424, 100);
+            this.gbxInventory.TabIndex = 20;
+            this.gbxInventory.TabStop = false;
+            this.gbxInventory.Text = "Inventory";
+            // 
+            // pbxInventoy6
+            // 
+            this.pbxInventoy6.BackColor = System.Drawing.Color.Transparent;
+            this.pbxInventoy6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbxInventoy6.Location = new System.Drawing.Point(301, 32);
+            this.pbxInventoy6.Name = "pbxInventoy6";
+            this.pbxInventoy6.Size = new System.Drawing.Size(50, 50);
+            this.pbxInventoy6.TabIndex = 20;
+            this.pbxInventoy6.TabStop = false;
+            // 
+            // pbxInventoy7
+            // 
+            this.pbxInventoy7.BackColor = System.Drawing.Color.Transparent;
+            this.pbxInventoy7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pbxInventoy7.Location = new System.Drawing.Point(357, 32);
+            this.pbxInventoy7.Name = "pbxInventoy7";
+            this.pbxInventoy7.Size = new System.Drawing.Size(50, 50);
+            this.pbxInventoy7.TabIndex = 21;
+            this.pbxInventoy7.TabStop = false;
             // 
             // Form1
             // 
@@ -420,21 +535,22 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(900, 600);
+            this.Controls.Add(this.pbxPlayer);
+            this.Controls.Add(this.gbxInventory);
+            this.Controls.Add(this.pbxPotionBlue);
+            this.Controls.Add(this.pbxPotionRed);
+            this.Controls.Add(this.pbxGhoul);
+            this.Controls.Add(this.pbxGhost);
+            this.Controls.Add(this.pbxBat);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.gbAttack);
+            this.Controls.Add(this.gbMove);
             this.Controls.Add(this.pbxAxe);
             this.Controls.Add(this.pbxQuiver);
             this.Controls.Add(this.pbxShield);
             this.Controls.Add(this.pbxMace);
             this.Controls.Add(this.pbxBow);
             this.Controls.Add(this.pbxSword);
-            this.Controls.Add(this.pbxPotionBlue);
-            this.Controls.Add(this.pbxPotionRed);
-            this.Controls.Add(this.pbxGhoul);
-            this.Controls.Add(this.pbxGhost);
-            this.Controls.Add(this.pbxBat);
-            this.Controls.Add(this.pbxPlayer);
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.gbAttack);
-            this.Controls.Add(this.gbMove);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
@@ -458,6 +574,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbxShield)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxQuiver)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxAxe)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventory1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventory2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventory3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventory4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventory5)).EndInit();
+            this.gbxInventory.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventoy6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxInventoy7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -496,6 +620,14 @@
         private System.Windows.Forms.PictureBox pbxShield;
         private System.Windows.Forms.PictureBox pbxQuiver;
         private System.Windows.Forms.PictureBox pbxAxe;
+        private System.Windows.Forms.PictureBox pbxInventory1;
+        private System.Windows.Forms.PictureBox pbxInventory2;
+        private System.Windows.Forms.PictureBox pbxInventory3;
+        private System.Windows.Forms.PictureBox pbxInventory4;
+        private System.Windows.Forms.PictureBox pbxInventory5;
+        private System.Windows.Forms.GroupBox gbxInventory;
+        private System.Windows.Forms.PictureBox pbxInventoy7;
+        private System.Windows.Forms.PictureBox pbxInventoy6;
     }
 }
 
